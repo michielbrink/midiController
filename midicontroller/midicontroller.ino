@@ -1,15 +1,15 @@
-#define setPin0 
-#define setPin1 
-#define setPin2
-#define setPin3
+#define setPin0 5
+#define setPin1 6
+#define setPin2 7
+#define setPin3 8
 
-#define inputA0
-#define inputA1
-#define inputA2
-#define inputA3
-#define inputSwitch
+#define inputA0 18
+#define inputA1 19
+#define inputA2 20
+#define inputA3 21
+#define inputSwitch 10
 
-#define outputLed
+#define outputLed 9
 
 #define startbit 0
 
