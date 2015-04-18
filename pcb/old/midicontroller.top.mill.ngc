@@ -1,0 +1,21 @@
+(.../software/eagle/pcbgcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../midicontroller/pcb/midicontroller.brd)
+(Current profile is .../pcbgcode/profiles/generic.pp  )
+(This file generated 17-03-15 20:06)
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(10.0000 	1.0000 	-0.1500 	-1.9000 )
+M06 (Contoleer je files en maten in LinuxCNC.)
+G21
+(Absolute Coordinates)
+G90
+S15000
+G00 Z10.0000 
+G00 X0.0000 Y0.0000 
+M03
+G04 P3.000000
+M05
+M02
