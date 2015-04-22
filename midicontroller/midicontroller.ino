@@ -14,17 +14,17 @@
 #define startbit 0
 
 //set vars
-int inputVarA0 = 0;
-int inputVarA1 = 0;
-int inputVarA2 = 0;
-int inputVarA3 = 0;
-boolean inputVarSwitch = 0;
+int inputVarA0[16];
+int inputVarA1[16];
+int inputVarA2[16];
+int inputVarA3[16];
+boolean inputVarSwitch[16];
 
-int inputOldVarA0 = 0;
-int inputOldVarA1 = 0;
-int inputOldVarA2 = 0;
-int inputOldVarA3 = 0;
-boolean inputOldVarSwitch = 0;
+int inputOldVarA0[16];
+int inputOldVarA1[16];
+int inputOldVarA2[16];
+int inputOldVarA3[16];
+boolean inputOldVarSwitch[16];
 
 //#define byte unsigned char 
 // First parameter is the event type (0x09 = note on, 0x08 = note off).
@@ -79,59 +79,62 @@ void setup()
   pinMode(inputA3, INPUT);
 
   //define led switches
-  pinMode(inputs, INPUT);
+  pinMode(inputSwitch, INPUT);
   pinMode(outputLed, OUTPUT);
 }
 
 void loop()
 {
-  for(int i=0; i<16; i++){
+  for(int i=0; i<15; i++){
       setPin(i);
 
-      inputVarA0 = analogRead(inputA0) * 128 ) / 1024;
+      inputVarA0[i] = (analogRead(inputA0) * 128 ) / 1024;
 
-      if (inputVarA0 != inputOldVarA0)
+      if (inputVarA0[i] != inputOldVarA0[i])
       {
-        noteOn(0, startbit+i, (inputVarA0);
-        inputOldVarA0 = inputVarA0;
+        noteOn(0, startbit+i, inputVarA0[i]);
+        inputOldVarA0[i] = inputVarA0[i];
       }
 
-      inputVarA1 = analogRead(inputA1) * 128 ) / 1024;
+      inputVarA1[i] = (analogRead(inputA1) * 128 ) / 1024;
 
-      if (inputVarA1 != inputOldVarA1)
+      if (inputVarA1[i] != inputOldVarA1[i])
       {
-        noteOn(0, startbit+16+i, (inputVarA1);
-        inputOldVarA1 = inputVarA1;
+        noteOn(0, startbit+16+i, inputVarA1[i]);
+        inputOldVarA1[i] = inputVarA1[i];
       }
 
-      inputVarA2 = analogRead(inputA2) * 128 ) / 1024;
+      inputVarA2[i] = (analogRead(inputA2) * 128 ) / 1024;
 
-      if (inputVarA2 != inputOldVarA2)
+      if (inputVarA2[i] != inputOldVarA2[i])
       {
-        noteOn(0, startbit+32+i, (inputVarA2);
-        inputOldVarA2 = inputVarA2;
+        noteOn(0, startbit+32+i, inputVarA2[i]);
+        inputOldVarA2[i] = inputVarA2[i];
       }
 
-      inputVarA3 = analogRead(inputA3) * 128 ) / 1024;
+      inputVarA3[i] = (analogRead(inputA3) * 128 ) / 1024;
 
-      if (inputVarA3 != inputOldVarA3)
+      if (inputVarA3[i] != inputOldVarA3[i])
       {
-        noteOn(0, startbit+48+i, (inputVarA3);
-        inputOldVarA3 = inputVarA3;
+        noteOn(0, startbit+48+i, inputVarA3[i]);
+        inputOldVarA3[i] = inputVarA3[i];
       }
       
-      inputVarSwitch = digitalRead(inputSwitch);
+      inputVarSwitch[i] = digitalRead(inputSwitch);
 
-      if (inputVarSwitch != inputOldVarSwitch)
+      if (inputVarSwitch[i] != inputOldVarSwitch[i])
       {
-        if (inputVarSwitch){
+        if (inputVarSwitch[i]){
             noteOn(0, startbit+64+i, 128);
         }
         else{
             noteOff(0, startbit+64+i, 0);
         }
-        inputOldVarSwitch = inputVarSwitch;
+        inputOldVarSwitch[i] = inputVarSwitch[i];
       }
+
+      digitalWrite(outputLed, inputOldVarSwitch[i]);
+
   }
   MIDIUSB.flush();
   delay(10);
