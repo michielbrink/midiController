@@ -1,0 +1,12 @@
+gnd = black
+button = yellow
+ A0 = yellow
+A1 = brown
+A2 = purple
+A3 = blue
+LED = green
+
+S0 = green/white
+S1 = yellow/white
+S2 = brown/white
+S3 = blue/white

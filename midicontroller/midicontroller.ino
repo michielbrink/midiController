@@ -3,13 +3,13 @@
 #define setPin2 7
 #define setPin3 8
 
-#define inputA0 18
-#define inputA1 19
-#define inputA2 20
-#define inputA3 21
-#define inputSwitch 10
+#define inputA0 20 //18
+#define inputA1 19 //19
+#define inputA2 18 //20
+#define inputA3 21 //21
+#define inputSwitch 9 //10
 
-#define outputLed 9
+#define outputLed 10 //9
 
 #define startbit 0
 
@@ -79,13 +79,13 @@ void setup()
   pinMode(inputA3, INPUT);
 
   //define led switches
-  pinMode(inputSwitch, INPUT);
+  pinMode(inputSwitch, INPUT_PULLUP);
   pinMode(outputLed, OUTPUT);
 }
 
 void loop()
 {
-  for(int i=0; i<15; i++){
+  for(int i=0; i<16; i++){
       setPin(i);
 
       inputVarA0[i] = (analogRead(inputA0) * 128 ) / 1024;
@@ -134,7 +134,7 @@ void loop()
       }
 
       digitalWrite(outputLed, inputOldVarSwitch[i]);
-
+      delay(10);
   }
   MIDIUSB.flush();
   delay(10);

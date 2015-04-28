@@ -141,7 +141,7 @@
 <text x="25.4" y="32.0675" size="1.778" layer="21">A2</text>
 <text x="21.59" y="70.485" size="1.778" layer="21">BTN</text>
 <text x="18.7325" y="67.31" size="1.778" layer="21">LED</text>
-<text x="15.875" y="72.39" size="1.778" layer="21">A4</text>
+<text x="15.875" y="72.39" size="1.778" layer="21">A3</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
