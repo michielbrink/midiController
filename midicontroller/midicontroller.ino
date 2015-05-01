@@ -13,6 +13,8 @@
 
 #define startbit 0
 
+#define delay_small 1
+
 //set vars
 int inputVarA0[16];
 int inputVarA1[16];
@@ -25,6 +27,12 @@ int inputOldVarA1[16];
 int inputOldVarA2[16];
 int inputOldVarA3[16];
 boolean inputOldVarSwitch[16];
+
+boolean buttonArray[16];
+
+//dont use this channel:    (cp from http://tweakheadz.com/midi-controllers/)
+// 32 Bank Select (LSB)  It's critical that you do not assign this controller to other functions.  Unless you like random bank changes running through your song.  
+// 
 
 //#define byte unsigned char 
 // First parameter is the event type (0x09 = note on, 0x08 = note off).
@@ -54,6 +62,7 @@ void controlChange(byte channel, byte control, byte value)
 {
   MIDIEvent event = {0x0B, 0xB0 | channel, control, value};
   MIDIUSB.write(event);
+  delay(delay_small);
 }
 
 void setPin(int channel) // function to select pin on 74HC4067
@@ -88,35 +97,35 @@ void loop()
   for(int i=0; i<16; i++){
       setPin(i);
 
-      inputVarA0[i] = (analogRead(inputA0) * 128 ) / 1024;
+      inputVarA0[i] = map(analogRead(inputA0), 0, 1023, 0, 127);
 
       if (inputVarA0[i] != inputOldVarA0[i])
       {
-        noteOn(0, startbit+i, inputVarA0[i]);
+        controlChange(0, startbit+i, inputVarA0[i]);
         inputOldVarA0[i] = inputVarA0[i];
       }
 
-      inputVarA1[i] = (analogRead(inputA1) * 128 ) / 1024;
+      inputVarA1[i] = map(analogRead(inputA1), 0, 1023, 0, 127);
 
       if (inputVarA1[i] != inputOldVarA1[i])
       {
-        noteOn(0, startbit+16+i, inputVarA1[i]);
+        controlChange(1, startbit+i, inputVarA1[i]);
         inputOldVarA1[i] = inputVarA1[i];
       }
 
-      inputVarA2[i] = (analogRead(inputA2) * 128 ) / 1024;
+      inputVarA2[i] = map(analogRead(inputA2), 0, 1023, 0, 127);
 
       if (inputVarA2[i] != inputOldVarA2[i])
       {
-        noteOn(0, startbit+32+i, inputVarA2[i]);
+        controlChange(2, startbit+i, inputVarA2[i]);
         inputOldVarA2[i] = inputVarA2[i];
       }
 
-      inputVarA3[i] = (analogRead(inputA3) * 128 ) / 1024;
+      inputVarA3[i] = map(analogRead(inputA3), 0, 1023, 0, 127);
 
       if (inputVarA3[i] != inputOldVarA3[i])
       {
-        noteOn(0, startbit+48+i, inputVarA3[i]);
+        controlChange(3, startbit+i, inputVarA3[i]);
         inputOldVarA3[i] = inputVarA3[i];
       }
       
@@ -124,17 +133,47 @@ void loop()
 
       if (inputVarSwitch[i] != inputOldVarSwitch[i])
       {
-        if (inputVarSwitch[i]){
-            noteOn(0, startbit+64+i, 128);
-        }
-        else{
-            noteOff(0, startbit+64+i, 0);
+        if (!inputVarSwitch[i])
+        {
+          if(i <= 14)
+          {
+            if(buttonArray[i])
+            {
+               for(int j=0; j<10; j++){
+                   controlChange(4, startbit+i, 0);
+                   delay(5);
+               }
+              buttonArray[i] = false;
+            }
+            else
+            {
+              for(int j=0; j<10; j++){
+                   controlChange(4, startbit+i, 127);
+                   delay(1);
+               }
+              buttonArray[i] = true;
+            }
+          }
+          else //if pin 15
+          {
+            for(int j=0; j<10; j++){
+                   controlChange(4, startbit+i, 0);
+                   delay(5);
+               }
+            for(int j=0; j<10; j++){
+                   controlChange(4, startbit+i, 127);
+                   delay(1);
+               }
+          }
         }
         inputOldVarSwitch[i] = inputVarSwitch[i];
       }
 
-      digitalWrite(outputLed, inputOldVarSwitch[i]);
-      delay(10);
+      digitalWrite(outputLed, buttonArray[i]);
+      if (buttonArray[i])
+      {
+        delay(10);
+      }
   }
   MIDIUSB.flush();
   delay(10);

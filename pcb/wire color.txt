@@ -1,10 +1,12 @@
+A0/1/2/3 from arduino, not from multiplexer
+
 gnd = black
-button = yellow
+button = green
  A0 = yellow
 A1 = brown
 A2 = purple
 A3 = blue
-LED = green
+LED = yellow
 
 S0 = green/white
 S1 = yellow/white

@@ -1,0 +1,1314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"delay",
+				"delay_small"
+			],
+			[
+				"frame",
+				"frameset	Tag"
+			],
+			[
+				"fra",
+				"frameset	Tag"
+			],
+			[
+				"output",
+				"outputLed"
+			],
+			[
+				"led",
+				"outputLed"
+			],
+			[
+				"inputvar",
+				"inputOldVarA0"
+			],
+			[
+				"inputv",
+				"inputVarA0"
+			],
+			[
+				"outpu",
+				"outputLed"
+			],
+			[
+				"input",
+				"inputA0"
+			],
+			[
+				"UDP_",
+				"UDP_PORT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "midicontroller.ino",
+			"settings":
+			{
+				"buffer_size": 4646,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"unf",
+				"Code Folding: Unfold All"
+			],
+			[
+				"fol",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"un",
+				"Code Folding: Unfold All"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"ht",
+				"Snippet: html"
+			],
+			[
+				"h",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"githu",
+				"Github: Open File"
+			],
+			[
+				"github",
+				"Github: Open File"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"gith",
+				"Github: Open File"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git ini",
+				"Git: Init"
+			],
+			[
+				"git ",
+				"Git: Pull"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"git com",
+				"Git: Custom Command"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"consol",
+				"Set Syntax: R Console"
+			],
+			[
+				"pytho",
+				"Set Syntax: Regular Expressions (Python)"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/michiel/workspace/school/web/index.html",
+		"/home/michiel/workspace/school/web/frames/lid.html",
+		"/home/michiel/workspace/school/web/frames/prijzen.html",
+		"/home/michiel/workspace/school/web/frames/home.html",
+		"/home/michiel/workspace/school/web/frames/contact.html",
+		"/home/michiel/workspace/school/web/frames/menu.html",
+		"/home/michiel/workspace/school/web/frames/logo.html",
+		"/home/michiel/workspace/school/web/old.html",
+		"/home/michiel/workspace/tkkrlabDisplay/editor.php",
+		"/home/michiel/workspace/tkkrlabDisplay/slides/slide2.html",
+		"/home/michiel/workspace/tkkrlabDisplay/slides/slide1.html",
+		"/home/michiel/workspace/tkkrlabDisplay/ckeditor/contents.css",
+		"/home/michiel/workspace/tkkrlabDisplay/ckeditor/config.js",
+		"/usr/share/arduino/examples/MidiEcho/MidiEcho.ino",
+		"/home/michiel/workspace/tkkrlabDisplay/action.php",
+		"/home/michiel/workspace/tkkrlabDisplay/index.php",
+		"/home/michiel/workspace/tkkrlabDisplay/ckeditor/build-config.js",
+		"/home/michiel/workspace/tkkrlabDisplay/ckeditor/ckeditor.js",
+		"/home/michiel/workspace/tkkrlabDisplay/ckeditor/styles.js",
+		"/home/michiel/workspace/tkkrlabDisplay/editor/index.php",
+		"/home/michiel/workspace/tkkrlabDisplay/ckeditor/samples/index.html",
+		"/home/michiel/workspace/tkkrlabDisplay/editor.html",
+		"/home/michiel/workspace/tkkrlabDisplay/run.sh",
+		"/home/michiel/workspace/ham/swr/arduPySwr/README.md",
+		"/home/michiel/workspace/ham/swr/arduPySwr/swr.py",
+		"/home/michiel/workspace/ham/swr/errors",
+		"/usr/share/arduino/examples/01.Basics/DigitalReadSerial/DigitalReadSerial.ino",
+		"/home/michiel/workspace/school/arduino-radar/radar-nothing/radar-nothing.ino",
+		"/home/michiel/workspace/school/arduino-radar/radar-emulator/radar-emulator.ino",
+		"/home/michiel/workspace/school/arduino-radar/radar/radar.ino",
+		"/usr/share/arduino/examples/02.Digital/Button/Button.ino",
+		"/usr/share/arduino/examples/01.Basics/Blink/Blink.ino",
+		"/usr/share/arduino/examples/02.Digital/DigitalInputPullup/DigitalInputPullup.ino",
+		"/home/michiel/workspace/arduino/libraries/RF24/examples/GettingStarted/GettingStarted.pde",
+		"/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_dyn/printf.h",
+		"/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_dyn/pingpair_dyn.ino",
+		"/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_ack/pingpair_ack.ino",
+		"/home/michiel/workspace/arduino/libraries/RF24/examples/GettingStarted/printf.h",
+		"/usr/share/arduino/examples/01.Basics/ReadAnalogVoltage/ReadAnalogVoltage.ino",
+		"/home/michiel/workspace/midicontroller/arduino/main.ino",
+		"/home/michiel/workspace/midicontroller/msp430/main.c",
+		"/home/michiel/workspace/midicontroller/msp430/midi.h",
+		"/home/michiel/workspace/xmos/vga/src/vga.xc",
+		"/usr/share/arduino/examples/01.Basics/AnalogReadSerial/AnalogReadSerial.ino",
+		"/home/michiel/workspace/midicontroller/arduino/main.c",
+		"/home/michiel/.config/sublime-text-2/Packages/Stino-new-stino/preset/platform.settings",
+		"/home/michiel/workspace/mcu/small-ledmatrix/client/klok.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/configs/default_conf.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/runPatternJob.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/artnet.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/configs/pattern_conf.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/main.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/README.md",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/matrix.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/convert.py",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/README.md",
+		"/home/michiel/workspace/light/artnetmatrixsimulator/py-art-net/patterns/Patterns.py",
+		"/home/michiel/workspace/software/quadcopter/server/udp.py",
+		"/home/michiel/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/michiel/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/michiel/workspace/eclipse/midihack/main.c",
+		"/home/michiel/workspace/eclipse/midihack/adc.h",
+		"/home/michiel/workspace/eclipse/midihack/midi.h",
+		"/home/michiel/workspace/software/quadcopter/client/testcode.py",
+		"/home/michiel/workspace/software/tkkrlabledklok/improvedklok2.0.py",
+		"/home/michiel/workspace/software/quadcopter/server/stm/__init__.py",
+		"/home/michiel/workspace/software/quadcopter/client/udp.py",
+		"/home/michiel/workspace/software/quadcopter/firmware/src/spi.h",
+		"/home/michiel/workspace/software/quadcopter/client/tcp.py",
+		"/home/michiel/workspace/software/tkkrlabledklok/klok.py",
+		"/home/michiel/workspace/software/bar/README.md",
+		"/home/michiel/workspace/software/bar/src/main.c",
+		"/home/michiel/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/michiel/workspace/software/quadcopter/firmware/src/spi.c",
+		"/home/michiel/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/michiel/.config/sublime-text-2/Packages/User/SublimeLinter.sublime-settings",
+		"/home/michiel/workspace/software/quadcopter/client/readme",
+		"/home/michiel/workspace/software/quadcopter/README.md",
+		"/home/michiel/workspace/software/quadcopter/client/server",
+		"/home/michiel/workspace/software/quadcopter-client/joystick.py",
+		"/home/michiel/workspace/software/quadcopter-client/gui.glade",
+		"/home/michiel/software/Sublime Text 2/PackageSetup.py"
+	],
+	"find":
+	{
+		"height": 72.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"noteOn",
+			"{\n",
+			"contents",
+			"else",
+			">\n",
+			"git",
+			"')\n",
+			"=\n",
+			"data",
+			" !=",
+			"open",
+			"isOpen",
+			"sleep",
+			"led_ceiling_matrix_ip",
+			"the_square",
+			"blockratio",
+			"        #",
+			"2",
+			"git",
+			"note",
+			"stm_message",
+			"self.msg",
+			"struct",
+			"alloc",
+			"alloc_named_const",
+			"version",
+			"1.0",
+			"font",
+			"0x01",
+			"RASPI_REINIT",
+			"0x55",
+			"TCP",
+			"timer",
+			"ping",
+			"ctrl+p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"blocksize",
+			"UDP"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "midicontroller.ino",
+					"settings":
+					{
+						"buffer_size": 4646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4419,
+								4419
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/User/Stino/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2142.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.1421599364.09":
+	{
+		"height": 112.0
+	},
+	"output.1421599378.32":
+	{
+		"height": 112.0
+	},
+	"output.1421599838.97":
+	{
+		"height": 112.0
+	},
+	"output.1421599848.96":
+	{
+		"height": 112.0
+	},
+	"output.1421599912.02":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/arduino/libraries/RF24/examples/GettingStarted|1421781446.16":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/arduino/sonar|1422388952.06":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/arduino/sonar|1422390808.1":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/arduino/sonar|1422390830.45":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/arduino/sonar|1422394890.0":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/arduino/sonar|1422394899.17":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429720969.65":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429720999.57":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721081.67":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721124.7":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721139.36":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721184.16":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721232.87":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721245.97":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721271.52":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721390.74":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721411.7":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721431.7":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721461.17":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721525.52":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midiController/midicontroller|1429721782.6":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midicontroller/arduino|1421599996.46":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midicontroller/arduino|1421600021.56":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midicontroller/arduino|1421600029.52":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midicontroller/arduino|1421600057.62":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midicontroller/arduino|1421600394.58":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/midicontroller/arduino|1421600430.6":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422977878.72":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422977921.1":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422977957.06":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422977976.79":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422978002.56":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422978028.52":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422978217.03":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422978234.2":
+	{
+		"height": 112.0
+	},
+	"output.build|/home/michiel/workspace/school/arduino-radar/radar-emulator|1422978332.96":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.git":
+	{
+		"height": 159.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/GettingStarted|1421781467.05":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/GettingStarted|1421781494.17":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/GettingStarted|1421781509.44":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_ack|1421783432.05":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_ack|1421783534.85":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_dyn|1421783673.75":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/libraries/RF24/examples/pingpair_dyn|1421783727.52":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422385757.42":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422385798.71":
+	{
+		"height": 310.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422385853.78":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422386157.65":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422387351.57":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422388790.4":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422388838.49":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422388984.88":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422388993.8":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422389003.24":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422390699.31":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422390723.39":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422390774.05":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422390834.64":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422390912.81":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422390935.29":
+	{
+		"height": 180.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422391012.24":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422391081.87":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422391114.93":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422391149.86":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422391204.12":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392023.83":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392043.31":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392102.09":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392161.16":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392171.34":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392367.26":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392586.08":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392598.02":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422392779.75":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393162.15":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393173.56":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393271.71":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393293.98":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393307.55":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393434.41":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393591.48":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422393706.97":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394133.95":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394138.81":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394151.64":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394396.54":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394610.36":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394723.41":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394859.63":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394902.74":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394930.93":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394954.86":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422394985.81":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395007.64":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395044.87":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395065.92":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395122.2":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395222.75":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395408.78":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395846.67":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395932.47":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422395981.29":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422396046.04":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/arduino/sonar|1422396065.3":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429965082.38":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429966469.99":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429966540.69":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429971148.37":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429971178.79":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429971223.39":
+	{
+		"height": 199.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429971766.29":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1429976292.93":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430220300.38":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430220343.45":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430220399.2":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430220999.14":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430221060.54":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430221163.0":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430221234.09":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430221315.45":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430222013.48":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430222082.11":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430222343.15":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430223841.42":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430224360.76":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430224767.34":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430224951.66":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430226120.01":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430226129.77":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430227518.93":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430228570.13":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430230695.79":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430235779.55":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430244536.88":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430245415.82":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430245432.21":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430246271.23":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430247859.59":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430496980.78":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430504827.12":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430505129.09":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430506499.29":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430506723.57":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430506919.96":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430507312.41":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430507863.53":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430508164.89":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430508366.55":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430508387.36":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430508411.2":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430508473.04":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430509048.64":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midiController/midicontroller|1430513014.23":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/midicontroller/arduino|1421600412.68":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-emulator|1423065199.88":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-emulator|1423065303.96":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-emulator|1423065460.07":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-emulator|1423560880.86":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-emulator|1423560911.93":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-nothing|1423558558.65":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar-nothing|1423558565.59":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422556571.25":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422556643.61":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422556669.5":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422556711.9":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422556772.49":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422556810.36":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422558526.1":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422558551.02":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422558582.92":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422558645.77":
+	{
+		"height": 112.0
+	},
+	"output.upload|/home/michiel/workspace/school/arduino-radar/radar|1422558694.28":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422381849.19":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422381930.8":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382296.86":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382348.77":
+	{
+		"height": 367.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382540.16":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382564.7":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382582.18":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382715.72":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382744.52":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382794.27":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422382800.54":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422384596.94":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422384654.89":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/Blink|1422384710.23":
+	{
+		"height": 112.0
+	},
+	"output.upload|/usr/share/arduino/examples/01.Basics/DigitalReadSerial|1423065396.45":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}
